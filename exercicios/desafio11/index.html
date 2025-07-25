@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+           
+        }
+        
+        body {
+            
+            height: 100vh;
+            width: 100vw;
+        }
+        
+        div.espaco {
+            width: 100vw;
+            height: 100vh;
+            position: relative; /* Para permitir posicionamento absoluto dos filhos */
+        }
+        
+        div.espaco img {
+            width: 100%;
+            height: 100%;  
+            display: block;
+        }
+        
+        div.astronauta {
+            position: absolute;
+            top: 50%; /* Centro vertical */
+            left: 50%; /* Centro horizontal */
+
+        }
+        
+        div.astronauta img {
+            width: 200px; /* Tamanho mais apropriado */
+            height: auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="espaco">
+        <img src="espaco.jpg" alt="Imagem do espaço">
+    </div>
+    <div class="astronauta">
+        <img src="astronauta.png" alt="Imagem do astronauta">
+    </div>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face /*serve para colocar fontes personalizadas*/ {
+            font-family: 'Vibes';
+            src: url('fonte/SpringVibe-PersonalUse.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+            /*
+            Tipos de format()
+            -opentype(otf)
+            -truetype(ttf)
+            -embedded-opentype
+            -truetype-att (apple advanced typography)
+            -svg
+            sempre bom ter ttf e otf juntos para funcionar em todos os navegadores
+            */
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            font-family: 'Vibes', Times, serif;
+            font-size: 3em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, natus blanditiis iste fugit mollitia ipsam modi illo, quae amet consequatur voluptate? Ut hic aliquam possimus alias dolor minima architecto enim.</p>
+    
+</body>
+</html>

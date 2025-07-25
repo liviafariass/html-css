@@ -1,0 +1,35 @@
+.box{
+    color: white;
+    text-align: center;
+    background-image: linear-gradient(to bottom, #18DB56, #17D353, #13B145, #108F38, #0C702C );
+    width: auto;
+    height: auto;
+    margin: -10px;
+    padding: 20px;
+}
+.menu{
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+
+}
+.menu a {
+    color: white;
+    text-decoration: none;
+    
+}
+.menu:hover{
+    color: #0C702C;
+    
+}
+body{
+    background-color: rgb(173, 253, 209);
+    
+}
+main{
+    background-color: white;
+    width: 1500px;
+    text-align: center;
+    height: auto;
+    margin: auto;
+}

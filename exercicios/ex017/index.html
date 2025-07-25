@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            /*Medidas Absolutas: cm, mm, in(polegada), px(pixel), pt, pc
+            Medidas Relativas: em, ex, rem, vw, vh, % 
+            recomenda-se usar px e em.
+            16px geralmente = 1em*/
+            font-size: 16px;
+            font-weight: normal;/* peso da fonte, podendo ser: lighter, normal, bold, bolder. essas variacoes podem ser representadas de forma numerica: 100-900*/
+            font-style: italic;/* estilo da fonte, podendo ser: normal, italic, oblique*/
+            text-decoration: underline;/* sublinhado*/
+        }
+        h1{
+            /*font-family: 'Times New Roman', Times, serif;
+            font-weight: normal;
+            font-size: 3em;
+            font-style: italic;
+            shorthand font--maozinha
+            - font-style -> font-weight -> font-size -> font-family. iremos simplificar as 4 linhas em uma so, assim:*/
+            font: italic normal 3em 'Times New Roman', Times, sans-serif;
+        }
+        h2{
+            font: bold 2em 'Times New Roman', Times, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ex sequi, ipsum nostrum necessitatibus earum sunt facilis sint labore maxime culpa, quam repudiandae, eius expedita quasi soluta libero fugit ipsam.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum nisi dolorum cum repudiandae alias temporibus modi quidem, ipsa perferendis nulla animi beatae saepe? Voluptates iusto qui, veniam eius ab obcaecati.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
+</body>
+</html>

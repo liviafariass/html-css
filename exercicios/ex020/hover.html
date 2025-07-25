@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Hover</title>
+    <style>
+        body{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        div > p{/*significa que vamos mexer no paragrafo dentro de div, elemento filho*/
+            display: none;/*escondeu o texto, none serve para que o texto seja escondido*/
+        }
+        div:hover > p{
+            display: block;/*serve para mostrar o texto, block serve para que o texto seja exibido em bloco*/
+            color: white;/*cor do texto*/
+            background-color: red;/*cor do fundo*/
+            width: 300px;/*largura do texto*/
+        }
+        div:hover{
+            color: red;/*cor do texto*/
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de hover</h1>
+    <p>Passe o mouse sobre o texto abaixo</p>
+    <div>Passe o mouse aqui
+        <p>TEXTO ESCONDIDO...</p>
+    </div>
+    
+</body>
+</html>

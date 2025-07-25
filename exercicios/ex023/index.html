@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>
+        h1 {
+            background-color: lightgray;
+            height: 300px;
+            width: 300px;
+            border : 10px solid darkgray;/*border-width, border-style, border-color*/
+            margin: 20px auto 40px auto;/*margin-top, margin-right, margin-bottom, margin-left. margin auto centraliza o elemento que for caixa*/
+            padding: 10px 10px 10px 10px;/*padding-top, padding-right, padding-bottom, padding-left, se todas as propriedades forem iguais, pode ser escrito assim: padding: 10px; se colocarmos 2 valores, o primeiro valor é para o top e bottom, e o segundo valor é para o left e right*/ 
+            outline: 5px dashed salmon;/*outline-width, outline-style, outline-color*/
+        }
+        *{
+            font-family: monospace;
+        }
+        img{
+            margin: auto;
+            display: block; /*display block faz com que o elemento seja exibido como um bloco, ou seja, ocupa toda a largura da tela*/
+        
+        }
+        p::first-letter{
+            font-family: fantasy
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="#">links são exemplos de caixas inline-level</a>. Vamos ver como tudo isso funciona.</p>
+    <p>User agente: é o navegador que está renderizando o site, ele é o responsável por exibir o site de forma correta.</p>
+    <img src="cB131PSX_400x400.jpg" alt="imagem de exemplo">
+    <p>Fim do exemplo</p>
+</body>
+</html>

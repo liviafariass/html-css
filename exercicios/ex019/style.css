@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/*
+em html é id = em css é #
+em html é class = em css é .
+id deve ser usado apenas uma vez, ja o class pode usar varias vezes
+da pra colocar dois class em uma coisa so, so separar por espaco
+*/
+body{
+    background-color: #FACAF8;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    color: #FA8C84;
+}
+h1#principal{
+    text-align: center;
+    color: #FA84B0;
+    background-color: #FA337C;
+}
+h2{
+    color: #FA6859;
+}
+.basico{
+    color: rgb(28, 94, 15);
+}
+.medio{
+    color: #FA6859;
+}
+
+.avancado{
+    color: #ff0000;
+}

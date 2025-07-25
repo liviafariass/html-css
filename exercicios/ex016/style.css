@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    /*height: 100%;*/
+}
+body {
+    background-image: linear-gradient(to bottom,#E3B310, #DE07E6, #10E3BC, #398F7F, #BDA659, #642566 );
+    background-attachment: fixed;
+}
+main{
+    background-color: white;
+    width: 600px;
+    padding: 10px;  
+    margin: auto; 
+    border-radius: 10px; /*arredonda as bordas do main*/
+    box-shadow: 5px 5px 15px #398F7F; /*cria uma sombra no main. o primeiro numero é a largura da sombra( o quanto anda pro lado), o segundo é a altura da sombra ( o quanto anda pra baixo), e o terceiro é o espalhamento da sombra ( o quanto espalha a sombra) e o quarto é a cor da sombra*/
+    
+}
+h1{
+    color: #642566;
+    text-align: center;
+    text-shadow: 1px 1px 2px #7b297ea4; /*cria um efeito de sombra no texto. o primeiro numero é a largura da sombra( o quanto anda pro lado), o segundo é a altura da sombra ( o quanto anda pra baixo), e o terceiro é o espalhamento da sombra ( o quanto espalha a sombra) e o quarto é a cor da sombra*/
+}
+h2{
+    color: #DE07E6;
+}
+p {
+    text-align: justify; /*alinha o texto ao centro, a diferença é que o justify alinha o texto a esquerda e a direita, enquanto o center alinha o texto ao centro*/
+    /*text-indent: 30px; indenta o texto, ou seja, cria um espaço no inicio do texto*/
+}
